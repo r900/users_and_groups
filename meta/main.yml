@@ -1,17 +1,20 @@
 ---
 
-allow_duplicates: yes
+allow_duplicates: true
 dependencies: []
 
 galaxy_info:
+  role_name: users_and_groups
+  namespace: r900
+  author: TBC
   description: Users and Groups Management Made Simple
   license: MIT
-  min_ansible_version: 2.5
+  min_ansible_version: "2.5"
   platforms:
     - name: Ubuntu
       versions:
         - trusty
         - xenial
         - bionic
-  categories:
+  galaxy_tags:
     - system
