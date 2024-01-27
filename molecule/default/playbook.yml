@@ -24,7 +24,7 @@
         - name: test_one
 
         - name: test_two
-          system: yes
+          system: true
 
         - name: test_three
           gid: 3333

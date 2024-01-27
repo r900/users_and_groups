@@ -46,7 +46,7 @@ Simple example for creating two users and two groups.
     - name: sansible.users_and_groups
       sansible_users_and_groups_groups:
         - name: lorem
-          system: yes
+          system: true
         - name: ipsum
       sansible_users_and_groups_users:
         - name: lorem.ipsum

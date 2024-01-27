@@ -10,7 +10,7 @@ sansible_users_and_groups_authorized_keys_dir: ~
 sansible_users_and_groups_groups: []
 #   - gid: YYY
 #     name: mygroup
-#     system: yes/no
+#     system: true/false
 
 sansible_users_and_groups_sudoers: []
 #   - name: ipsum
@@ -23,7 +23,7 @@ sansible_users_and_groups_users: []
 #     groups:
 #       - wheel
 #       - users
-#     system: yes/no
+#     system: true/false
 #     uid: YYY
 
 sansible_users_and_groups_whitelist_groups: []
